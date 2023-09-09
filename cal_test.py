@@ -1,6 +1,6 @@
 import builtins
 import unittest
-from calculator import select_operation, get_float_input  # Import your functions from the calculator module
+from calculator import select_operation, get_float_input
 
 class TestSelectOperation(unittest.TestCase):
     def test_select_addition(self):
